@@ -8,9 +8,9 @@ from supabase import create_client, Client
 # ==========================================================
 # 1. INITIALIZATION & CONFIG
 # ==========================================================
-GEMINI_API_KEY = "AQ.Ab8RN6KWf80I64TN_4-O2WSMZ6U3NESUn3arouycPK60avWXVw"
-SUPABASE_URL = "https://bpenmhytwhbkdphcwoqi.supabase.co"
-SUPABASE_KEY = "sb_secret_DIcOZ7vVm9i-vvLEx-xjHg_IgbNUR9Q"
+GEMINI_API_KEY = "gemini key"
+SUPABASE_URL = "supabase url"
+SUPABASE_KEY = "supabase key"
 
 try:
     gemini_client = genai.Client(api_key=GEMINI_API_KEY)
